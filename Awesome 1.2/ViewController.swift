@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+    @IBOutlet weak var messageLabel: UILabel!
+    
+        override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("viewDidLoad did run")
     }
 
-
+    @IBAction func messageButtonPressed(_ sender: UIButton) { messageLabel.text = "It could only be senpai!"
+    }
+    
 }
+
 
