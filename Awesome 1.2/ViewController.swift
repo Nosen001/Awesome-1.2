@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     @IBAction func messageButtonPressed(_ sender: UIButton) { messageLabel.text = "It could only be senpai!"
     }
     
+    @IBAction func secondButton(_ sender: UIButton) { messageLabel.text = "Activated second button!"
+    }
 }
 
 
